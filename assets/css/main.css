@@ -71,6 +71,17 @@ input, select, textarea {
 	appearance: none;
 }
 
+.profile{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+}
+
+.circular{
+	border-radius: 50%;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -174,7 +185,14 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: #ffffff;
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0 0;
+	}
+
+	h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
