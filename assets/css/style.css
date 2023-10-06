@@ -466,6 +466,19 @@ section {
   background-color: #149ddd;
 }
 
+.skills-icon-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.skill-icon {
+  font-size: 100px;
+  margin: 10px;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
